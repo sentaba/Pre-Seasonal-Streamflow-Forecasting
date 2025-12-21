@@ -1,4 +1,4 @@
-# Pre-Seasonal Streamflow Forecasting using a Principal Component Regression Model in the Michipicoten Watershed, Canada
+# Pre-Seasonal Streamflow Forecasting in the Michipicoten Watershed, Canada
 
 ## Introduction
 Accurate seasonal streamflow forecasting is essential for hydropower operations, reservoir regulation, ecological planning, and flood mitigation, especially in snow-dominated regions. The Michipicoten River watershed, draining into northeastern Lake Superior in Ontario, exhibits significant seasonal variability driven by snow accumulation, melt processes, and large-scale climate patterns. This project focuses on pre-seasonal (April–June, AMJ) streamflow forecasting using early-season (January–March, JFM) climate predictors.
@@ -68,6 +68,13 @@ The project uses a systematic approach:
 - Integrate statistical and machine learning models.  
 - Consider climate change impacts on streamflow prediction.  
 - Compare with persistence and other predictive models.
+
+## Project Structure / Files
+- `/documents` – Contains all text documents, notes, and supplementary reports.  
+- `/figures` – Plots, charts, PCA visualizations, and forecast comparison figures.  
+- `streamflow_analysis.ipynb` – Jupyter Notebook with data processing, PCA, PCR, MLR, and visualization workflow.  
+- `data/` – Raw and processed datasets (ERA5 reanalysis and observed streamflow).  
+- `README.md` – This project overview and guide.  
 
 ## References
 - Arnal, L. et al. (2024). *FROSTBYTE: A reproducible data-driven workflow for probabilistic seasonal streamflow forecasting in snow-fed river basins across North America*. Hydrology and Earth System Sciences, 28, 4127–4155.  
