@@ -73,7 +73,7 @@ The project uses a systematic approach:
 - `/documents` – Contains all text documents, notes, and supplementary reports.  
 - `/figures` – Plots, charts, PCA visualizations, and forecast comparison figures.  
 - `streamflow_analysis.ipynb` – Jupyter Notebook with data processing, PCA, PCR, MLR, and visualization workflow.  
-- `data/` – Raw and processed datasets (ERA5 reanalysis and observed streamflow).  
+- `data/` – Processed datasets (ERA5 reanalysis and observed streamflow).  
 - `README.md` – This project overview and guide.  
 
 ## References
