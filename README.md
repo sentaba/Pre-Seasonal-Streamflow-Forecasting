@@ -74,7 +74,7 @@ The project uses a systematic approach:
 - `/figures` – Plots, charts, PCA visualizations, and forecast comparison figures.  
 - `streamflow_analysis.ipynb` – Jupyter Notebook with data processing, PCA, PCR, MLR, and visualization workflow.  
 - `data/` – Processed datasets (ERA5 reanalysis and observed streamflow).  
-- `README.md` – This project overview and guide.  
+- `README.md` – General overview of the project.  
 
 ## References
 - Arnal, L. et al. (2024). *FROSTBYTE: A reproducible data-driven workflow for probabilistic seasonal streamflow forecasting in snow-fed river basins across North America*. Hydrology and Earth System Sciences, 28, 4127–4155.  
