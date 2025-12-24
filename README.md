@@ -35,18 +35,16 @@ The project uses a systematic approach:
 
 **Tools Used:** Python (data processing, PCA, PCR, visualization), QGIS (watershed delineation), Climate Predictability Tool (MLR modeling).
 
-## Data
+## Data sources and Analysis
 - **Study Area:** Michipicoten River watershed, Ontario, Canada.  
 - **Predictors:** JFM hydroclimatic variables from ERA5 reanalysis: Precipitation (Pr), Temperature (T), Snow Water Equivalent (SWE), Potential Evapotranspiration (PET), Mean Sea-Level Pressure (MSLP), Surface Pressure (SP).  
 - **Predictand:** Observed AMJ streamflow from Hydrometric Station 02BD002 (1991–2019).
-
-## Data Analysis
-- Pearson correlation analysis indicated SWE, precipitation, and temperature as most influential predictors.  
 - Heatmaps and scatter plots revealed multicollinearity, motivating the use of PCR.  
 - Standardization ensured comparability across variables.
 
 ## Results
-- **Variance Explained:** Three PCs captured >80% cumulative variance.  
+- **Variance Explained:** Three PCs captured >80% cumulative variance.
+- Model analysis results shows SWE, precipitation, and temperature as most influential predictors.  
 - **Model Performance:**
 
 | Model | RMSE | MAE | Pearson R | NSE | RPSS |
